@@ -1,0 +1,26 @@
+.image_text_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 100px;
+    gap: 80px;
+}
+.image_text_info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+.image_text_info p{
+    font-family: cursive;
+    line-height: 30px;
+}
+.image_container{
+    text-align: center
+}
+.image_container img{
+    width: 100%;
+}

@@ -1,0 +1,7 @@
+.image {
+  background-image: url("../../assets/Banner_image.jpg");
+  background-size: cover;
+  height: 90vh;
+  width: 100%;
+  background-position: center;
+}

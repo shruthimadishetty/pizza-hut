@@ -3,6 +3,9 @@ import {Link} from 'react-router-dom';
 import {FaTimes,FaBars} from 'react-icons/fa'
 import './Header.css';
 import img from "../../assets/pizza-logo.jpg";
+import OutsideClickHandlerWrapper from '../OuterCloser/OutsideClickHandlerWrapper';
+
+
 
 
 const Header = () => {
@@ -13,6 +16,10 @@ const Header = () => {
   }
 
   return (
+    <>
+    <OutsideClickHandlerWrapper onOutsideClick={()=>{
+      setClick(false)
+    }}>
     <nav>
       <div className='logo'>
          <img src={img} alt="" width={"50px"} height={"50px"}/>
@@ -34,6 +41,8 @@ const Header = () => {
         }
       </div>
     </nav>
+    </OutsideClickHandlerWrapper>
+    </>
   )
 }
 

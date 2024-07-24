@@ -26,6 +26,11 @@
 }
 @media(max-width:900px){
     .image_text_container{
-        padding: 60px;
+        padding: 50px;
+    }
+    .image_text_info p{
+        font-family: cursive;
+        line-height: 30px;
+        font-size: 14px;
     }
 }
